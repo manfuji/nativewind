@@ -23,7 +23,9 @@ You will need to install `nativewind` and it's peer dependency `tailwindcss`.
 ```bash
 yarn add nativewind
 yarn add --dev tailwindcss
+or yarn add --dev tailwindcss@3.3.2
 ```
+The version specified above is to avoid getting this error `Use process(css).then(cb) to work with async plugins`
 
 ## 2. Setup Tailwind CSS
 
